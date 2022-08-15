@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  display: block;
+  border-bottom: dotted;
+  border-color: aquamarine;
+  background-color: #222529;
+}
+
+body {
+  background-color: #222529;
+  color: whitesmoke;
+  font-family: 'Ibarra Real Nova', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.inner-header {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #222529;
+
+}
+
+.logo-container {
+  height: 100%;
+  display: table;
+  float: left;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.logo-container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:#222529;
+  ;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.navigation li {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color:#222529;
+    ;
+}
+
+.navigation li a {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  color:#222529;
+  background-color: aquamarine;
+  border-radius: 1px;
+}
+
+
+h1 span {
+  font-weight: 1000;
+}
+
+.presentation-container {
+  font-size: 100px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+
+}
+
+.presentation-container h2 {
+  font-size: 25px;
+  float: right;
+  margin-right: 330px;
+}
+
+.presentation-container span {
+  display: block;
+}
+
+.volunteeringprojects-container {
+  vertical-align: middle;
+  text-align: left;
+
+}
+
+.volunteeringprojects-container h3 {
+  text-align: left;
+  font-size: 50px;
+  color: aquamarine;
+}
+
+.volunteering-container {
+  padding: 50px;
+  margin-bottom: 75px;
+  background-color:#484b4f;
+}
+
+.lastestprojects-container {
+  margin-top: 30px;
+  padding: 50px;
+}
+
+.lastestprojects-right p {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.lastestprojects-right h4 {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.lastestprojects-right2 h4 {
+  text-align: left;
+  margin-top: 100px;
+}
+
+.lastestprojects-right2 p {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.curriculum-container h2 {
+  margin-top: 100px;
+}
+
+.curriculum-container {
+  margin-bottom: 50px
+}
+
+.img-aquastyle {
+  border-color: aquamarine;
+  border-style: dotted;
+  margin: 0 auto;
+  display: block;
+}
+
+.smaller-font {
+  font-size: 50px;
+}
+
+.aqua-color {
+  color: aquamarine;
+}
+
+.img-small {
+  height: 50px;
+  width: 50px;
+  padding: 8px;
+}
+
+.img-size {
+  width: 300px;
+  height: 400px;
+}
+
+.img-inline {
+  display: block;
+  margin-bottom: 30px
+}
+
+.mywork-container h2 {
+  font-size: 50px;
+  color: aquamarine;
+}
+
+.mywork-container h3, h2 {
+  font-size: 25px;
+  color: aquamarine;
+}
+
+.mywork-container2 {
+  padding: 50px;
+  margin-bottom: 45px;
+  background-color:#484b4f;
+  margin-top: 30px;
+}
+
+.background-container {
+  margin-bottom: 50px;
+}
+
+.porfolio-container {
+  margin-bottom: 30px;
+  padding: 50px;
+}
+
+.porfolio-container h3 {
+  margin-bottom: 20px;
+}
+
+.porfolio-container p {
+  margin: 20px 0 20px 0;
+}
+
+.contact-container h2 {
+  font-size: 50px;
+  color: hsl(160, 100%, 75%);
+  text-align: left;
+  margin-top: 70px;
+  
+}
+
+.contact-container {
+  padding-left: 150px;
+}
+
+.form-container {
+  padding-left: 30px;
+}
+
+.form-container h3 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  font-family: 'Ibarra Real Nova', sans-serif;
+  width: 100%;
+  margin-top: 150px;
+  padding: 40px 15%;
+  background-color: aquamarine;
+  display: flex;
+  color: #222529;
+}
+
+.navigation-footer li {
+  display: inline;
+  padding: 30px;
+}
+
+.navigation-footer a{
+  color: #484b4f;
+  text-decoration: none;
+}
+
+.navigation-footer {
+  margin-left: 200px;
+}
+
+.footer-socialmedia ul {
+  display: flex;
+  list-style: none;
+}
